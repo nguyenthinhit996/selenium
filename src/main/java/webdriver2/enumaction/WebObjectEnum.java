@@ -36,4 +36,14 @@ public enum WebObjectEnum {
 		this.exapanAction = exapanAction;
 	}
 	
+	
+	public static WebObjectEnum getWebObjectEnum(String actionName) {
+		for(WebObjectEnum in : values()) {
+			if(in.getActionName().equals(actionName)) {
+				return in;
+			}
+		}
+		return null;
+	}
+	
 }

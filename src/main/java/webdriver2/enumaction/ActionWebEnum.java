@@ -30,4 +30,13 @@ public enum ActionWebEnum {
 		this.exapanAction = exapanAction;
 	}
 	
+	public static ActionWebEnum getActionWebEnum(String actionName) {
+		for(ActionWebEnum in : values()) {
+			if(in.getActionName().equals(actionName)) {
+				return in;
+			}
+		}
+		return null;
+	}
+	
 }

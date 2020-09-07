@@ -36,4 +36,13 @@ public enum CheckResultEnumEnum {
 		this.exapanAction = exapanAction;
 	}
 	
+	public static CheckResultEnumEnum getCheckResultEnumEnum(String actionName) {
+		for(CheckResultEnumEnum in : values()) {
+			if(in.getActionName().equals(actionName)) {
+				return in;
+			}
+		}
+		return null;
+	}
+	
 }

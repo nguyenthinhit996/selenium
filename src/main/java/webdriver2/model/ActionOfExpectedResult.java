@@ -71,4 +71,7 @@ public class ActionOfExpectedResult {
 		this.valueOf = null;
 		this.contentwebObject = null;
 	}
+	public ActionOfExpectedResult() {
+		super();
+	}
 }

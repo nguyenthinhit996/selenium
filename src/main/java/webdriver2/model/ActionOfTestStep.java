@@ -58,5 +58,7 @@ public class ActionOfTestStep {
 		this.content = null;
 	}
 	 
-	
+	public ActionOfTestStep() {
+		super();
+	}
 }
