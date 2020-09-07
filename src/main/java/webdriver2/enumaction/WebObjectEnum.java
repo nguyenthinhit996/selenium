@@ -4,7 +4,7 @@ public enum WebObjectEnum {
 	// status
 	
 	LINK("link", "opend web link"),
-	TITTLE("tittle", "tag tittle"),
+	TITLE("title", "tag title"),
 	ID("id","id of page"),
 	CLASS("class", "class"),
 	VALUEOF("value-of", "value of object");

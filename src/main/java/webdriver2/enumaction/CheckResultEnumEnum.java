@@ -8,9 +8,13 @@ public enum CheckResultEnumEnum {
 	EQUAL("equal","check equal"),
 	NOTEQUAL("not-equal","check equal"),
 	PASS("pass","test case pass"),
-	FAIL("fail","test case fail"),;
+	FAIL("fail","test case fail"),
+	EMPTY("empty","not-null"),
+	NOTEMPTY("not-empty","not-null"),
+	VISIBLE("visible","not-null"),
+	HIDDEN("hidden","not-null");
 	
-	
+ 
 	
 	private String actionName;
 	private String exapanAction;

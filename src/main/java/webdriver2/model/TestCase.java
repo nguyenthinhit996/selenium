@@ -96,5 +96,8 @@ public class TestCase {
 		this.testedDate = null;
 	}
 	 
+	public TestCase() {
+		super();
 	
+	}
 }

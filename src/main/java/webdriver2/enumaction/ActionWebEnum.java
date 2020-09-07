@@ -4,6 +4,7 @@ public enum ActionWebEnum {
 	OPENURL("open-url", "open link url web"),
 	INPUT("input", "input data field"),
 	CLICK("click","click button"),
+	REFRESH("refresh","refresh page"),
 	CHECKBOX("check-box", "check box or radio box");
 	
 	private String actionName;
