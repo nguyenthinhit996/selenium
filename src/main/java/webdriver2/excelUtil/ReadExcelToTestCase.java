@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
@@ -18,7 +18,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import webdriver2.activity.FilterStringToObjectTest;
 import webdriver2.model.ActionOfExpectedResult;
 import webdriver2.model.ActionOfTestStep;
+import webdriver2.model.DataInputFiled;
 import webdriver2.model.TestCase;
+import webdriver2.model.TestCaseDataInput;
 
 public class ReadExcelToTestCase {
 
@@ -77,7 +79,9 @@ public class ReadExcelToTestCase {
 				
 				Cell cellnameUsertest =row.getCell(6);
 				String nameUsertest = formatter.formatCellValue(cellnameUsertest);
-				test.setNameUsertest("Thinh");
+				if(StringUtils.isEmpty(nameUsertest)) {
+					test.setNameUsertest("Thinh");
+				}
 				
 				Cell celltestedDate =row.getCell(7);
 				String testedDate = formatter.formatCellValue(celltestedDate);
@@ -102,6 +106,70 @@ public class ReadExcelToTestCase {
 		return lsTestCase;
 	}
 
+	public static List<TestCaseDataInput> readFileDataInputOfTestCase(final String fileName) {
+		List<TestCaseDataInput> lsTestCase= new ArrayList<TestCaseDataInput>();
+		File file=null;
+		FileInputStream fis= null;
+		try {
+			file = new File(fileName); // creating a new file instance
+			fis = new FileInputStream(file); // obtaining bytes from the file
+			// creating Workbook instance that refers to .xlsx file
+			XSSFWorkbook wb = new XSSFWorkbook(fis);
+			XSSFSheet sheet = wb.getSheetAt(0); // creating a Sheet object to retrieve object
+			Iterator<Row> itr = sheet.iterator(); // iterating over excel file
+
+			Row rowFirst = itr.next();
+			int numOfFiled=2;
+			List<String> lsNameOfFiled= new ArrayList<String>();
+			
+			while(true) {
+				Cell cellFirst=rowFirst.getCell(numOfFiled);
+				if(cellFirst == null || StringUtils.isEmpty(formatter.formatCellValue(cellFirst))) {
+					break;
+				}
+				lsNameOfFiled.add(formatter.formatCellValue(cellFirst).trim());
+				numOfFiled++;
+			}
+			
+			while (itr.hasNext()) {
+				Row row = itr.next();			
+				TestCaseDataInput test=new TestCaseDataInput();
+ 
+				Cell cellId =row.getCell(0);
+				String id = formatter.formatCellValue(cellId);
+				test.setIdTestCase(id.trim());
+				
+				Cell cellname =row.getCell(1);
+				String name = formatter.formatCellValue(cellname);
+				test.setNameTestCase(name.trim());
+				
+				List<DataInputFiled> lsDataInputFiled= new ArrayList<DataInputFiled>();
+				for(int i=0;i<lsNameOfFiled.size();i++) {
+					DataInputFiled dataNew= new DataInputFiled();
+					dataNew.setNameFiled(lsNameOfFiled.get(i));
+					
+					// 0 id, 1 name, start of value is 2
+					Cell cellValue =row.getCell(i+2);
+					if(cellValue != null) {
+						String value = formatter.formatCellValue(cellValue);	 
+						dataNew.setValueFiled(value);
+					}else {
+						// set default value of Filed blank
+						dataNew.setValueFiled("");
+					}
+					lsDataInputFiled.add(dataNew);
+				}
+				test.setLsDataFiled(lsDataInputFiled);
+				lsTestCase.add(test);	
+			}
+			fis.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return lsTestCase;
+	}
+	
 	public static void main(String[] args) {
 		//readExcelToTestCase.readFile();
 	}

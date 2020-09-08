@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -50,6 +51,10 @@ public class WriteTestCaseInToExcel {
 				for(TestCase testcaseloop: lsTestCase) {
 					if(testcaseloop.getId().equals(id)) {
 						// set actual result
+						// if empty is not similar with expected result
+						if(StringUtils.isEmpty(testcaseloop.getActualResult())) {
+							testcaseloop.setActualResult("No results as expected");
+						}
 						if(row.getCell(4)==null) {
 							row.createCell(4).setCellValue(testcaseloop.getActualResult());
 						}else {
@@ -57,6 +62,10 @@ public class WriteTestCaseInToExcel {
 						}
 						
 						// set status
+						// if empty is fail
+						if(StringUtils.isEmpty(testcaseloop.getStatus())) {
+							testcaseloop.setStatus("Fail");
+						}
 						if(row.getCell(5)==null) {
 							row.createCell(5).setCellValue(testcaseloop.getStatus());
 						}else {

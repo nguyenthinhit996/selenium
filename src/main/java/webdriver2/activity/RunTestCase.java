@@ -1,10 +1,11 @@
 package webdriver2.activity;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
@@ -14,7 +15,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import net.bytebuddy.description.modifier.SynchronizationState;
 import webdriver2.enumaction.ActionWebEnum;
 import webdriver2.enumaction.CheckResultEnumEnum;
 import webdriver2.enumaction.WebObjectEnum;
@@ -23,13 +23,13 @@ import webdriver2.excelUtil.WriteTestCaseInToExcel;
 import webdriver2.model.ActionOfExpectedResult;
 import webdriver2.model.ActionOfTestStep;
 import webdriver2.model.TestCase;
-import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import webdriver2.model.TestCaseDataInput;
 
 public class RunTestCase {
 
 	static WebDriverWait wait = null;
 	static WebDriver driver;
-	final static long numberSecondViewApp = 1000;
+	final static long numberSecondViewApp = 0;
 
 	static void getInforToRun() {
 		String current = null;
@@ -50,16 +50,16 @@ public class RunTestCase {
 
 	}
 
-	static void runTestCase(TestCase test) {
+	static void runTestCase(TestCase test,List<TestCaseDataInput> lsDataTestCase ) {
 		// action step test
-		stepRunTestCase(test.getLsActionOfTestCase());
+		stepRunTestCase(test.getId(),test.getLsActionOfTestCase(),lsDataTestCase);
 
 		// check result
 		checkActualResult(test);
 
 	}
 
-	static void stepRunTestCase(List<ActionOfTestStep> lsStep) {
+	static void stepRunTestCase(String idTestCase, List<ActionOfTestStep> lsStep, List<TestCaseDataInput> lsDataTestCase ) {
 		try {
 			for (ActionOfTestStep action : lsStep) {
 				if (action.getActionWeb().equals(ActionWebEnum.OPENURL)) {
@@ -69,10 +69,12 @@ public class RunTestCase {
 				} else if (action.getActionWeb().equals(ActionWebEnum.INPUT)) {
 					// nhap input
 					if (WebObjectEnum.ID.equals(action.getWebObject())) {
-						driver.findElement(By.id(action.getNameWebObject())).sendKeys(action.getContent());
+						String dataInput=TestCaseDataInput.getValueOfFiledByIdTestCase(idTestCase, action.getNameWebObject(), lsDataTestCase);
+						driver.findElement(By.id(action.getNameWebObject())).sendKeys(dataInput);
 						watingView();
 					} else if (WebObjectEnum.CLASS.equals(action.getWebObject())) {
-						driver.findElement(By.className(action.getNameWebObject())).sendKeys(action.getContent());
+						String dataInput=TestCaseDataInput.getValueOfFiledByIdTestCase(idTestCase, action.getNameWebObject(), lsDataTestCase);
+						driver.findElement(By.className(action.getNameWebObject())).sendKeys(dataInput);
 						watingView();
 					}
 
@@ -325,23 +327,31 @@ public class RunTestCase {
 	public static void main(String[] args) {
 
 		// folder testcase
-		final File folder = new File("../testcase");
-		List<String> dsFileTestCase = listFilesForFolder(folder);
+		final File folderTestCase = new File("../Testcase");
+		List<String> dsFileTestCase = listFilesForFolder(folderTestCase);
+		
+		// folder testcase
+		final File folderTestCaseData = new File("../DataInput");
+		List<String> dsFileTestCaseData = listFilesForFolder(folderTestCaseData);
 
-		for (String fileName : dsFileTestCase) {
+		for (int i=0;i<dsFileTestCase.size();i++) {
 			// read all test case from excel
-			List<TestCase> dsTestCase = ReadExcelToTestCase.readFile(fileName);
+			List<TestCase> dsTestCase = ReadExcelToTestCase.readFile(dsFileTestCase.get(i));
+			
+			// read all test case from excel
+			List<TestCaseDataInput> dsTestCaseInput = ReadExcelToTestCase.readFileDataInputOfTestCase(dsFileTestCaseData.get(i));
+						
 			// run all test case
 			for (TestCase testcaseLoop : dsTestCase) {
 				getInforToRun();
-				runTestCase(testcaseLoop);
+				runTestCase(testcaseLoop,dsTestCaseInput);
 				watingView();
 				// quit driverde
 				quitDriver();
 			}
 
 			// write all test case to excel
-			 WriteTestCaseInToExcel.writeTestcaseIntoExcel(fileName, dsTestCase);
+			 WriteTestCaseInToExcel.writeTestcaseIntoExcel(dsFileTestCase.get(i), dsTestCase);
 		}
 	}
 
