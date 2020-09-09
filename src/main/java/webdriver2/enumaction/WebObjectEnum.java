@@ -7,6 +7,7 @@ public enum WebObjectEnum {
 	TITLE("title", "tag title"),
 	ID("id","id of page"),
 	CLASS("class", "class"),
+	ALERT("alert ", "Alert "),
 	VALUEOF("value-of", "value of object");
 	
 	

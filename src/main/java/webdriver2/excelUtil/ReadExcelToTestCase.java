@@ -52,6 +52,10 @@ public class ReadExcelToTestCase {
 
 				Cell cellId =row.getCell(0);
 				String id = formatter.formatCellValue(cellId);
+				if(cellId==null || StringUtils.isEmpty(id)) {
+					break;
+				}
+				
 				test.setId(id.trim());
 				
 				Cell cellname =row.getCell(1);
@@ -90,7 +94,6 @@ public class ReadExcelToTestCase {
 					 Date date1=formatter.parse(testedDate.trim()); 
 						test.setTestedDate(date1);
 				}catch (Exception e) {
-					System.out.print("time null");
 					  Date date = new Date();
 					test.setTestedDate(date);
 				}

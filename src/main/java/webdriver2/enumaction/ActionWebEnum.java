@@ -5,6 +5,7 @@ public enum ActionWebEnum {
 	INPUT("input", "input data field"),
 	CLICK("click","click button"),
 	REFRESH("refresh","refresh page"),
+	SELECT("select","select dropdown"),
 	CHECKBOX("check-box", "check box or radio box");
 	
 	private String actionName;
