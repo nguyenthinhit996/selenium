@@ -14,9 +14,11 @@ RunJar (thư mục chứa file jar để run trực tiếp)</li>
 cmd : java -jar seleniumWeb2.jar<br>
 <img src="./RunJar/start.png" alt="image info">
 <img src="./RunJar/end.png" alt="image info">
-<pre><code>Test Create Accout User: https://youtu.be/PAS39Ga6MXI
-Test Login User: https://youtu.be/EZoRWydz3R8
-</code></pre>
+<pre>
+  Video Demo:
+  Test Create Accout User: https://youtu.be/PAS39Ga6MXI
+  Test Login User: https://youtu.be/EZoRWydz3R8
+</pre>
 
   </li>
 </ol>
