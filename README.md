@@ -22,11 +22,11 @@ Test Login User: <a href="https://youtu.be/EZoRWydz3R8">https://youtu.be/EZoRWyd
 </ol>
 <br>
 <ol>
-<li class="has-line-data" data-line-start="0" data-line-end="25">chú ý:<br>
+<li data-line-start="0" data-line-end="25">chú ý:<br>
 Máy phải đã cài java, version 8 trở lên<br>
 Máy đã cài FireFox<br>
 Máy dã deploy server: localhost/supermarketv3/</li>
-<li class="has-line-data" data-line-start="4" data-line-end="29">Dự định tiếp theo sẽ ra version tiếp theo:<br>
+<li data-line-start="4" data-line-end="29">Dự định tiếp theo sẽ ra version tiếp theo:<br>
 Chạy theo server tự chọn<br>
 Chạy theo trình duyệt web tự chọn.</li>
 </ol>
