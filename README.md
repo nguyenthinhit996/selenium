@@ -1,3 +1,5 @@
+
+
 <p class="has-line-data" data-line-start="0" data-line-end="1">++++++++++++++++++++ Hướng Dẫn sử dụng +++++++++++++++++++++++++++</p>
 <ol>
 <li class="has-line-data" data-line-start="1" data-line-end="8">Cấu trúc thư mục<br>
@@ -10,9 +12,9 @@ RunJar (thư mục chứa file jar để run trực tiếp)</li>
 <li class="has-line-data" data-line-start="8" data-line-end="13">Run selenium<br>
 Đang ở vị trí thư mục RunJar<br>
 cmd : java -jar seleniumWeb2.jar<br>
-<img src="./RunJar/start.png" alt="image info">start</li>
+<img src="./RunJar/start.png" alt="image info">
+<img src="./RunJar/end.png" alt="image info"></li>
 </ol>
-<p class="has-line-data" data-line-start="13" data-line-end="14"><img src="./RunJar/end.png" alt="image info"></p>
 <ul>
 <li class="has-line-data" data-line-start="15" data-line-end="20">chú ý:<br>
 Máy phải đã cài java, version 8 trở lên<br>
@@ -25,3 +27,4 @@ Máy dã deploy server: localhost/supermarketv3/</li>
 <li class="has-line-data" data-line-start="22" data-line-end="24">chạy theo trình duyệt web tự chọn.</li>
 </ul>
 <p class="has-line-data" data-line-start="24" data-line-end="25">Cảm ơn. Chúc thành công.</p>
+
