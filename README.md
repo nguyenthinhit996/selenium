@@ -4,7 +4,7 @@
 <ol>
 <li class="has-line-data" data-line-start="1" data-line-end="8">Cấu trúc thư mục<br>
 Parent Folder:<br>
-DataInput (thư mục chứa file input dataTestCase, Thư mục đã chứa file input Data Sẵn0)<br>
+DataInput (thư mục chứa file input dataTestCase, Thư mục đã chứa file input Data Sẵn)<br>
 ResultTest (thư mục chứa file resutl sau khi selenium đã run xong)<br>
 SourceCode (thu mục chứa source code)<br>
 Testcase (thư mục chứa file test case,thư mục đã chứa testCase )<br>
