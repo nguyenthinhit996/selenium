@@ -1,4 +1,9 @@
 # selenium
+Read File Excel Testcase - File input data.
+Run selenium 
+Write file result test, file log4j.
+
+
 Selenium cung cấp hàng loạt công cụ và thư viện cho phép và hỗ trợ tự động hóa trên các trình duyệt web.
 The Selenium project là thành viên của tổ chức Software Freedom Conservancy là tổ chức phi lợi nhuận.
 Selenium 1 was released in 2004.
