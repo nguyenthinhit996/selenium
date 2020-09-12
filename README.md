@@ -21,12 +21,13 @@ Test Create Accout User: <a href="https://youtu.be/PAS39Ga6MXI">https://youtu.be
 Test Login User: <a href="https://youtu.be/EZoRWydz3R8">https://youtu.be/EZoRWydz3R8</a><br>
 </ol>
 <br>
-chú ý:<br>
+<ol>
+<li class="has-line-data" data-line-start="0" data-line-end="25">chú ý:<br>
 Máy phải đã cài java, version 8 trở lên<br>
 Máy đã cài FireFox<br>
-Máy dã deploy server: localhost/supermarketv3/<br>
-Dự định tiếp theo sẽ ra version tiếp theo:<br>
-chạy theo server tự chọn<br>
-chạy theo trình duyệt web tự chọn.</li>
-
-<p class="has-line-data" data-line-start="29" data-line-end="30">Cảm ơn. Chúc thành công.</p>
+Máy dã deploy server: localhost/supermarketv3/</li>
+<li class="has-line-data" data-line-start="4" data-line-end="29">Dự định tiếp theo sẽ ra version tiếp theo:<br>
+Chạy theo server tự chọn<br>
+Chạy theo trình duyệt web tự chọn.</li>
+</ol>
+<p class="has-line-data" data-line-start="29" data-line-end="33">Cảm ơn. Chúc thành công.</p>
