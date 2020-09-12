@@ -13,7 +13,12 @@ RunJar (thư mục chứa file jar để run trực tiếp)</li>
 Đang ở vị trí thư mục RunJar<br>
 cmd : java -jar seleniumWeb2.jar<br>
 <img src="./RunJar/start.png" alt="image info">
-<img src="./RunJar/end.png" alt="image info"></li>
+<img src="./RunJar/end.png" alt="image info">
+  Video Demo:
+    Test Create Accout User: https://youtu.be/PAS39Ga6MXI
+    Test Login User: https://youtu.be/EZoRWydz3R8
+
+  </li>
 </ol>
 <ul>
 <li class="has-line-data" data-line-start="15" data-line-end="20">chú ý:<br>
