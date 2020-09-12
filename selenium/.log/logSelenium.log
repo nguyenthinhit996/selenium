@@ -1,0 +1,1477 @@
+2020-09-09 23:06:18 INFO  RunTestCase:387 - ==============Run main=========================
+2020-09-09 23:06:19 INFO  RunTestCase:399 - ======== Read TestCase ========= D:\kiemchungphanmem\code selenium\selenium\..\Testcase\testcase_create Account.xlsx
+2020-09-09 23:06:19 INFO  RunTestCase:402 - ======== Read Input TestCase ========= D:\kiemchungphanmem\code selenium\selenium\..\DataInput\data input create Account.xlsx
+2020-09-09 23:06:19 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công với tất cả trường đều rỗng có check Conditon=================================
+2020-09-09 23:06:23 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:23 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:23 INFO  RunTestCase:87 - INPUT data id FullName Value 
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 3
+2020-09-09 23:06:23 INFO  RunTestCase:87 - INPUT data id Email Value 
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 4
+2020-09-09 23:06:23 INFO  RunTestCase:87 - INPUT data id UserName Value 
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 5
+2020-09-09 23:06:23 INFO  RunTestCase:87 - INPUT data id Password Value 
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 6
+2020-09-09 23:06:23 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 7
+2020-09-09 23:06:23 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 8
+2020-09-09 23:06:23 INFO  RunTestCase:87 - INPUT data id Answer Value 
+2020-09-09 23:06:23 INFO  RunTestCase:75 - 9
+2020-09-09 23:06:24 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:06:24 INFO  RunTestCase:75 - 10
+2020-09-09 23:06:24 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:06:24 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:06:24 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:06:24 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:06:24 INFO  RunTestCase:270 - checkActualResult EMPTY FullName
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 3
+2020-09-09 23:06:24 INFO  RunTestCase:270 - checkActualResult EMPTY Email
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 4
+2020-09-09 23:06:24 INFO  RunTestCase:270 - checkActualResult EMPTY UserName
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 5
+2020-09-09 23:06:24 INFO  RunTestCase:270 - checkActualResult EMPTY Password
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 6
+2020-09-09 23:06:24 INFO  RunTestCase:270 - checkActualResult EMPTY ConfirmPassword
+2020-09-09 23:06:24 INFO  RunTestCase:148 - checkActualResult 7
+2020-09-09 23:06:24 INFO  RunTestCase:270 - checkActualResult EMPTY Answer
+2020-09-09 23:06:24 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:06:24 INFO  RunTestCase:355 - Pass
+2020-09-09 23:06:24 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:06:25 INFO  RunTestCase:411 - End===========================Đăng kí không thành công với tất cả trường đều rỗng có check Conditon=================================
+2020-09-09 23:06:25 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công với tất cả trường đều rỗng có không check Conditon=================================
+2020-09-09 23:06:28 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:28 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:28 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:28 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:29 INFO  RunTestCase:87 - INPUT data id FullName Value 
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 3
+2020-09-09 23:06:29 INFO  RunTestCase:87 - INPUT data id Email Value 
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 4
+2020-09-09 23:06:29 INFO  RunTestCase:87 - INPUT data id UserName Value 
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 5
+2020-09-09 23:06:29 INFO  RunTestCase:87 - INPUT data id Password Value 
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 6
+2020-09-09 23:06:29 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 7
+2020-09-09 23:06:29 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 8
+2020-09-09 23:06:29 INFO  RunTestCase:87 - INPUT data id Answer Value 
+2020-09-09 23:06:29 INFO  RunTestCase:75 - 9
+2020-09-09 23:06:29 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:06:29 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:06:29 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:06:29 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:06:29 INFO  RunTestCase:231 - checkActualResult NOTEMPTY Please
+2020-09-09 23:06:29 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:06:29 INFO  RunTestCase:355 - Pass
+2020-09-09 23:06:29 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:06:30 INFO  RunTestCase:411 - End===========================Đăng kí không thành công với tất cả trường đều rỗng có không check Conditon=================================
+2020-09-09 23:06:30 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với fullname có ký tự đặt biệt=================================
+2020-09-09 23:06:33 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:33 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:34 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:34 INFO  RunTestCase:87 - INPUT data id FullName Value FullName3asd--!@#$%^&*()_-------
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 3
+2020-09-09 23:06:34 INFO  RunTestCase:87 - INPUT data id Email Value testVip3@gmail.com
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 4
+2020-09-09 23:06:34 INFO  RunTestCase:87 - INPUT data id UserName Value userName3
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 5
+2020-09-09 23:06:34 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-123
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 6
+2020-09-09 23:06:34 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-123
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 7
+2020-09-09 23:06:34 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 8
+2020-09-09 23:06:34 INFO  RunTestCase:87 - INPUT data id Answer Value Red0
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 9
+2020-09-09 23:06:34 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:06:34 INFO  RunTestCase:75 - 10
+2020-09-09 23:06:35 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:06:35 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:06:35 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:06:35 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:06:35 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:06:35 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:06:35 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:06:35 INFO  RunTestCase:358 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:06:35 INFO  RunTestCase:360 - Fail
+2020-09-09 23:06:35 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:06:35 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với fullname có ký tự đặt biệt=================================
+2020-09-09 23:06:35 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với fullname với hơn 255 ký tự=================================
+2020-09-09 23:06:39 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:39 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:40 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:40 INFO  RunTestCase:87 - INPUT data id FullName Value FullName4sdfdsfdsafsdfsdfdsafsadfsdafadsfjkljfkasdjflksdafjsladkjfkladsjfkadsjfkdsajfkjsdklfjasdkadsfsadfsaf242332dlfjfsdafasdaskdfjkladsjfklwjkerjweklrjwklerjqewkljrwklejrklwqejrlkwejrklqesdafadsfasdfsadwjrlkwjrklwqjrkljwerkjqewklrjqewkrsfsdfajqewlkrjlkwqjrfasdfjlqwjrlkwqejrlkewrewqrsdfsadfadsfadsf
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 3
+2020-09-09 23:06:40 INFO  RunTestCase:87 - INPUT data id Email Value testVip4@gmail.com
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 4
+2020-09-09 23:06:40 INFO  RunTestCase:87 - INPUT data id UserName Value userName4
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 5
+2020-09-09 23:06:40 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-124
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 6
+2020-09-09 23:06:40 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-124
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 7
+2020-09-09 23:06:40 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 8
+2020-09-09 23:06:40 INFO  RunTestCase:87 - INPUT data id Answer Value Red1
+2020-09-09 23:06:40 INFO  RunTestCase:75 - 9
+2020-09-09 23:06:41 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:06:41 INFO  RunTestCase:75 - 10
+2020-09-09 23:06:41 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:06:41 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:06:41 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:06:41 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:06:41 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:06:41 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:06:41 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:06:41 INFO  RunTestCase:358 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:06:41 INFO  RunTestCase:360 - Fail
+2020-09-09 23:06:41 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:06:42 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với fullname với hơn 255 ký tự=================================
+2020-09-09 23:06:42 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với email rỗng=================================
+2020-09-09 23:06:45 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:45 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:47 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:47 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:47 INFO  RunTestCase:87 - INPUT data id FullName Value FullName5
+2020-09-09 23:06:47 INFO  RunTestCase:75 - 3
+2020-09-09 23:06:47 INFO  RunTestCase:87 - INPUT data id Email Value 
+2020-09-09 23:06:47 INFO  RunTestCase:75 - 4
+2020-09-09 23:06:47 INFO  RunTestCase:87 - INPUT data id UserName Value userName5
+2020-09-09 23:06:47 INFO  RunTestCase:75 - 5
+2020-09-09 23:06:47 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-125
+2020-09-09 23:06:47 INFO  RunTestCase:75 - 6
+2020-09-09 23:06:47 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-125
+2020-09-09 23:06:47 INFO  RunTestCase:75 - 7
+2020-09-09 23:06:48 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:06:48 INFO  RunTestCase:75 - 8
+2020-09-09 23:06:48 INFO  RunTestCase:87 - INPUT data id Answer Value Red2
+2020-09-09 23:06:48 INFO  RunTestCase:75 - 9
+2020-09-09 23:06:48 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:06:48 INFO  RunTestCase:75 - 10
+2020-09-09 23:06:48 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:06:48 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:06:48 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:06:48 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:06:48 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:06:48 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:06:48 INFO  RunTestCase:270 - checkActualResult EMPTY Email
+2020-09-09 23:06:48 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:06:48 INFO  RunTestCase:355 - Pass
+2020-09-09 23:06:48 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:06:49 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với email rỗng=================================
+2020-09-09 23:06:49 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với email có ký tự đặt biệt=================================
+2020-09-09 23:06:52 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:52 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:53 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:53 INFO  RunTestCase:87 - INPUT data id FullName Value FullName6
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 3
+2020-09-09 23:06:53 INFO  RunTestCase:87 - INPUT data id Email Value testVip6asd---*&^%$#@!------r@gmail.com
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 4
+2020-09-09 23:06:53 INFO  RunTestCase:87 - INPUT data id UserName Value userName6
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 5
+2020-09-09 23:06:53 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-126
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 6
+2020-09-09 23:06:53 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-126
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 7
+2020-09-09 23:06:53 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:06:53 INFO  RunTestCase:75 - 8
+2020-09-09 23:06:54 INFO  RunTestCase:87 - INPUT data id Answer Value Red3
+2020-09-09 23:06:54 INFO  RunTestCase:75 - 9
+2020-09-09 23:06:54 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:06:54 INFO  RunTestCase:75 - 10
+2020-09-09 23:06:54 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:06:54 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:06:54 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:06:54 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:06:54 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:06:54 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:06:54 INFO  RunTestCase:270 - checkActualResult EMPTY Email
+2020-09-09 23:06:54 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:06:54 INFO  RunTestCase:355 - Pass
+2020-09-09 23:06:54 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:06:55 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với email có ký tự đặt biệt=================================
+2020-09-09 23:06:55 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với email có hơn 255 ký tự=================================
+2020-09-09 23:06:58 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:06:58 INFO  RunTestCase:75 - 1
+2020-09-09 23:06:59 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:06:59 INFO  RunTestCase:75 - 2
+2020-09-09 23:06:59 INFO  RunTestCase:87 - INPUT data id FullName Value FullName7
+2020-09-09 23:06:59 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:00 INFO  RunTestCase:87 - INPUT data id Email Value testVip7sdfdsfdsafsdfsdfdsafsadfsdafadsfjkljfkasdjflksdafjsladkjfkladsjfkadsjfkdsajfkjsdklfjasdkadsfsadfsaf242332dlfjfsdafasdaskdfjkladsjfklwjkerjweklrjwklerjqewkljrwklejrklwqejrlkwejrklqesdafadsfasdfsadwjrlkwjrklwqjrkljwerkjqewklrjqewkrsfsdfajqewlkrjlkwqjrfasdfjlqwjrlkwqejrlkewrewqrsdfsadfadsfadsf@gmail.com
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:00 INFO  RunTestCase:87 - INPUT data id UserName Value userName7
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:00 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-127
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:00 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-127
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:00 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:00 INFO  RunTestCase:87 - INPUT data id Answer Value Red4
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:00 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:00 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:00 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:00 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:00 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:00 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:00 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:00 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:00 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:07:00 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:00 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:00 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:01 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với email có hơn 255 ký tự=================================
+2020-09-09 23:07:01 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với username rỗng=================================
+2020-09-09 23:07:05 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:05 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:07 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:07 INFO  RunTestCase:87 - INPUT data id FullName Value FullName8
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:07 INFO  RunTestCase:87 - INPUT data id Email Value testVip8@gmail.com
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:07 INFO  RunTestCase:87 - INPUT data id UserName Value 
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:07 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-128
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:07 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-128
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:07 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:07 INFO  RunTestCase:87 - INPUT data id Answer Value Red5
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:07 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:07 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:08 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:08 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:08 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:08 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:08 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:08 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:08 INFO  RunTestCase:270 - checkActualResult EMPTY UserName
+2020-09-09 23:07:08 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:08 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:08 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:08 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với username rỗng=================================
+2020-09-09 23:07:08 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với username có ký tự đặt biệt=================================
+2020-09-09 23:07:12 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:12 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:12 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:12 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:12 INFO  RunTestCase:87 - INPUT data id FullName Value FullName9
+2020-09-09 23:07:12 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:13 INFO  RunTestCase:87 - INPUT data id Email Value testVip9@gmail.com
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:13 INFO  RunTestCase:87 - INPUT data id UserName Value userName9!@#$%^&*()_+6sd------
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:13 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-129
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:13 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-129
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:13 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:13 INFO  RunTestCase:87 - INPUT data id Answer Value Red6
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:13 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:13 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:13 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:13 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:13 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:13 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:13 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:13 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:13 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:07:13 INFO  RunTestCase:358 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:07:13 INFO  RunTestCase:360 - Fail
+2020-09-09 23:07:13 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:14 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với username có ký tự đặt biệt=================================
+2020-09-09 23:07:14 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với username có hơn 255 ký tự=================================
+2020-09-09 23:07:17 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:17 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:21 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:21 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:21 INFO  RunTestCase:87 - INPUT data id FullName Value FullName10
+2020-09-09 23:07:21 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:21 INFO  RunTestCase:87 - INPUT data id Email Value testVip10@gmail.com
+2020-09-09 23:07:21 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:21 INFO  RunTestCase:87 - INPUT data id UserName Value userName10sdfdsfdsafsdfsdfdsafsadfsdafadsfjkljfkasdjflksdafjsladkjfkladsjfkadsjfkdsajfkjsdklfjasdkadsfsadfsaf242332dlfjfsdafasdaskdfjkladsjfklwjkerjweklrjwklerjqewkljrwklejrklwqejrlkwejrklqesdafadsfasdfsadwjrlkwjrklwqjrkljwerkjqewklrjqewkrsfsdfajqewlkrjlkwqjrfasdfjlqwjrlkwqejrlkewrewqrsdfsadfadsfadsf
+2020-09-09 23:07:21 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:21 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-130
+2020-09-09 23:07:21 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:22 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-130
+2020-09-09 23:07:22 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:22 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:07:22 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:22 INFO  RunTestCase:87 - INPUT data id Answer Value Red7
+2020-09-09 23:07:22 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:22 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:22 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:22 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:22 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:22 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:22 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:22 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:22 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:22 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:07:22 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:22 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:22 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:24 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với username có hơn 255 ký tự=================================
+2020-09-09 23:07:24 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với mật khẩu rỗng=================================
+2020-09-09 23:07:27 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:27 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:29 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:29 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:30 INFO  RunTestCase:87 - INPUT data id FullName Value FullName11
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:30 INFO  RunTestCase:87 - INPUT data id Email Value testVip11@gmail.com
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:30 INFO  RunTestCase:87 - INPUT data id UserName Value userName11
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:30 INFO  RunTestCase:87 - INPUT data id Password Value 
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:30 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-131
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:30 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:30 INFO  RunTestCase:87 - INPUT data id Answer Value Red8
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:30 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:30 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:30 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:30 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:30 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:30 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:30 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:30 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:30 INFO  RunTestCase:270 - checkActualResult EMPTY Password
+2020-09-09 23:07:30 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:30 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:30 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:31 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với mật khẩu rỗng=================================
+2020-09-09 23:07:31 INFO  RunTestCase:405 - Start=========================Đăng kí thành công | Đăng ký với mật khẩu có ký tự đặt biệt=================================
+2020-09-09 23:07:34 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:34 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:35 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:35 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:35 INFO  RunTestCase:87 - INPUT data id FullName Value FullName12
+2020-09-09 23:07:35 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:35 INFO  RunTestCase:87 - INPUT data id Email Value testVip12@gmail.com
+2020-09-09 23:07:35 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:35 INFO  RunTestCase:87 - INPUT data id UserName Value userName12
+2020-09-09 23:07:35 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:35 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip &%#-132
+2020-09-09 23:07:35 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:35 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip &%#-132
+2020-09-09 23:07:35 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:36 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:07:36 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:36 INFO  RunTestCase:87 - INPUT data id Answer Value Red9
+2020-09-09 23:07:36 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:36 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:36 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:36 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:36 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:36 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:36 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:36 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:36 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:36 INFO  RunTestCase:168 - checkActualResult NOTEXIST FullName
+2020-09-09 23:07:36 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:36 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:36 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:37 INFO  RunTestCase:411 - End===========================Đăng kí thành công | Đăng ký với mật khẩu có ký tự đặt biệt=================================
+2020-09-09 23:07:37 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với mật khẩu nhỏ hơn 7 ký tự=================================
+2020-09-09 23:07:41 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:41 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:41 INFO  RunTestCase:87 - INPUT data id FullName Value FullName13
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:41 INFO  RunTestCase:87 - INPUT data id Email Value testVip13@gmail.com
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:41 INFO  RunTestCase:87 - INPUT data id UserName Value userName13
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:41 INFO  RunTestCase:87 - INPUT data id Password Value 1t133
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:41 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1t133
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:41 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:07:41 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:42 INFO  RunTestCase:87 - INPUT data id Answer Value Red10
+2020-09-09 23:07:42 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:42 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:42 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:42 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:42 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:42 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:42 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:42 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:42 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:42 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:07:42 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:42 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:42 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:43 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với mật khẩu nhỏ hơn 7 ký tự=================================
+2020-09-09 23:07:43 INFO  RunTestCase:405 - Start=========================Đăng kí thành công | Đăng ký với mật khẩu bao gồm chữ và số và ký tự đật biệt=================================
+2020-09-09 23:07:47 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:47 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:47 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:47 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:47 INFO  RunTestCase:87 - INPUT data id FullName Value FullName14
+2020-09-09 23:07:47 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:47 INFO  RunTestCase:87 - INPUT data id Email Value testVip14@gmail.com
+2020-09-09 23:07:47 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:47 INFO  RunTestCase:87 - INPUT data id UserName Value userName14
+2020-09-09 23:07:47 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:47 INFO  RunTestCase:87 - INPUT data id Password Value 1tes!@#$%^&*()_+tvip-136
+2020-09-09 23:07:47 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:48 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1tes!@#$%^&*()_+tvip-136
+2020-09-09 23:07:48 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:48 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:07:48 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:48 INFO  RunTestCase:87 - INPUT data id Answer Value Red11
+2020-09-09 23:07:48 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:48 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:48 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:48 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:48 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:48 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:48 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:48 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:48 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:48 INFO  RunTestCase:168 - checkActualResult NOTEXIST FullName
+2020-09-09 23:07:48 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:48 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:48 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:49 INFO  RunTestCase:411 - End===========================Đăng kí thành công | Đăng ký với mật khẩu bao gồm chữ và số và ký tự đật biệt=================================
+2020-09-09 23:07:49 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với mật khẩu không gồm ký tự đặt biệt và chữ số=================================
+2020-09-09 23:07:53 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:53 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:53 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:53 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:53 INFO  RunTestCase:87 - INPUT data id FullName Value FullName15
+2020-09-09 23:07:53 INFO  RunTestCase:75 - 3
+2020-09-09 23:07:54 INFO  RunTestCase:87 - INPUT data id Email Value testVip15@gmail.com
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 4
+2020-09-09 23:07:54 INFO  RunTestCase:87 - INPUT data id UserName Value userName15
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 5
+2020-09-09 23:07:54 INFO  RunTestCase:87 - INPUT data id Password Value 12345678
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 6
+2020-09-09 23:07:54 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 12345678
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 7
+2020-09-09 23:07:54 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 8
+2020-09-09 23:07:54 INFO  RunTestCase:87 - INPUT data id Answer Value Red12
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 9
+2020-09-09 23:07:54 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:07:54 INFO  RunTestCase:75 - 10
+2020-09-09 23:07:54 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:07:54 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:07:54 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:07:54 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:07:54 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:07:54 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:07:54 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:07:54 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:07:54 INFO  RunTestCase:355 - Pass
+2020-09-09 23:07:54 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:07:55 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với mật khẩu không gồm ký tự đặt biệt và chữ số=================================
+2020-09-09 23:07:55 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu rỗng=================================
+2020-09-09 23:07:59 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:07:59 INFO  RunTestCase:75 - 1
+2020-09-09 23:07:59 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:07:59 INFO  RunTestCase:75 - 2
+2020-09-09 23:07:59 INFO  RunTestCase:87 - INPUT data id FullName Value FullName16
+2020-09-09 23:07:59 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:00 INFO  RunTestCase:87 - INPUT data id Email Value testVip16@gmail.com
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:00 INFO  RunTestCase:87 - INPUT data id UserName Value userName16
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:00 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-136
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:00 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:00 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:00 INFO  RunTestCase:87 - INPUT data id Answer Value Red13
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:00 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:00 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:01 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:01 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:01 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:01 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:01 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:01 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:01 INFO  RunTestCase:270 - checkActualResult EMPTY ConfirmPassword
+2020-09-09 23:08:01 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:01 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:01 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:01 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu rỗng=================================
+2020-09-09 23:08:01 INFO  RunTestCase:405 - Start=========================Đăng kí thành công | Đăng ký với xác nhận mật khẩu có ký tự đặt biệt=================================
+2020-09-09 23:08:05 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:05 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:05 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:05 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:05 INFO  RunTestCase:87 - INPUT data id FullName Value FullName17
+2020-09-09 23:08:05 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:05 INFO  RunTestCase:87 - INPUT data id Email Value testVip17@gmail.com
+2020-09-09 23:08:05 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:05 INFO  RunTestCase:87 - INPUT data id UserName Value userName17
+2020-09-09 23:08:05 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:06 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-137
+2020-09-09 23:08:06 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:06 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-137
+2020-09-09 23:08:06 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:06 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:08:06 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:06 INFO  RunTestCase:87 - INPUT data id Answer Value Red14
+2020-09-09 23:08:06 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:06 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:06 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:06 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:06 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:06 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:06 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:06 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:06 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:06 INFO  RunTestCase:168 - checkActualResult NOTEXIST FullName
+2020-09-09 23:08:06 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:06 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:06 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:07 INFO  RunTestCase:411 - End===========================Đăng kí thành công | Đăng ký với xác nhận mật khẩu có ký tự đặt biệt=================================
+2020-09-09 23:08:07 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu nhỏ hơn 7 ký tự=================================
+2020-09-09 23:08:10 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:10 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:11 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:11 INFO  RunTestCase:87 - INPUT data id FullName Value FullName18
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:11 INFO  RunTestCase:87 - INPUT data id Email Value testVip18@gmail.com
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:11 INFO  RunTestCase:87 - INPUT data id UserName Value userName18
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:11 INFO  RunTestCase:87 - INPUT data id Password Value p-138
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:11 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value p-138
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:11 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:11 INFO  RunTestCase:87 - INPUT data id Answer Value Red15
+2020-09-09 23:08:11 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:12 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:12 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:12 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:12 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:12 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:12 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:12 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:12 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:12 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:08:12 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:12 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:12 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:13 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu nhỏ hơn 7 ký tự=================================
+2020-09-09 23:08:13 INFO  RunTestCase:405 - Start=========================Đăng kí thành công | Đăng ký với xác nhận mật khẩu bao gồm chữ và số và ký tự đặt biệt=================================
+2020-09-09 23:08:16 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:16 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:17 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:17 INFO  RunTestCase:87 - INPUT data id FullName Value FullName19
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:17 INFO  RunTestCase:87 - INPUT data id Email Value testVip19@gmail.com
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:17 INFO  RunTestCase:87 - INPUT data id UserName Value userName19
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:17 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-139
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:17 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-139
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:17 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:17 INFO  RunTestCase:87 - INPUT data id Answer Value Red16
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:17 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:17 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:18 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:18 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:18 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:18 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:18 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:18 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:18 INFO  RunTestCase:168 - checkActualResult NOTEXIST FullName
+2020-09-09 23:08:18 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:18 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:18 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:18 INFO  RunTestCase:411 - End===========================Đăng kí thành công | Đăng ký với xác nhận mật khẩu bao gồm chữ và số và ký tự đặt biệt=================================
+2020-09-09 23:08:18 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không gồm ký tự đặt biệt và chữ số=================================
+2020-09-09 23:08:22 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:22 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:22 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:22 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:22 INFO  RunTestCase:87 - INPUT data id FullName Value FullName20
+2020-09-09 23:08:22 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:22 INFO  RunTestCase:87 - INPUT data id Email Value testVip20@gmail.com
+2020-09-09 23:08:22 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:22 INFO  RunTestCase:87 - INPUT data id UserName Value userName20
+2020-09-09 23:08:22 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:22 INFO  RunTestCase:87 - INPUT data id Password Value 12345678
+2020-09-09 23:08:22 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:23 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 12345678
+2020-09-09 23:08:23 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:23 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:08:23 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:23 INFO  RunTestCase:87 - INPUT data id Answer Value Red17
+2020-09-09 23:08:23 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:23 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:23 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:23 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:23 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:23 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:23 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:23 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:23 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:23 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:08:23 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:23 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:23 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:24 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không gồm ký tự đặt biệt và chữ số=================================
+2020-09-09 23:08:24 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không giống mật khẩu=================================
+2020-09-09 23:08:27 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:27 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:33 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:33 INFO  RunTestCase:87 - INPUT data id FullName Value FullName21
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:33 INFO  RunTestCase:87 - INPUT data id Email Value testVip21@gmail.com
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:33 INFO  RunTestCase:87 - INPUT data id UserName Value userName21
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:33 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-141
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:33 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-141eee
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:33 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:33 INFO  RunTestCase:87 - INPUT data id Answer Value Red18
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:33 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:33 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:33 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:33 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:33 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:33 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:33 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:33 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:33 INFO  RunTestCase:298 - checkActualResult VISIBLE CompareValidatorPassword
+2020-09-09 23:08:33 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:33 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:33 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:34 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không giống mật khẩu=================================
+2020-09-09 23:08:34 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký câu hỏi bảo mật rỗng=================================
+2020-09-09 23:08:37 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:37 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:38 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:38 INFO  RunTestCase:87 - INPUT data id FullName Value FullName22
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:38 INFO  RunTestCase:87 - INPUT data id Email Value testVip22@gmail.com
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:38 INFO  RunTestCase:87 - INPUT data id UserName Value userName22
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:38 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-142
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:38 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-142
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:38 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:38 INFO  RunTestCase:87 - INPUT data id Answer Value 
+2020-09-09 23:08:38 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:39 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:39 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:39 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:39 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:39 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:39 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:39 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:39 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:39 INFO  RunTestCase:270 - checkActualResult EMPTY Answer
+2020-09-09 23:08:39 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:39 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:39 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:40 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký câu hỏi bảo mật rỗng=================================
+2020-09-09 23:08:40 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký câu hỏi bảo mật gồm ký tự đặt biệt=================================
+2020-09-09 23:08:43 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:43 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:45 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:45 INFO  RunTestCase:87 - INPUT data id FullName Value FullName23
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:45 INFO  RunTestCase:87 - INPUT data id Email Value testVip23@gmail.com
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:45 INFO  RunTestCase:87 - INPUT data id UserName Value userName23
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:45 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-143
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:45 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-143
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:45 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:45 INFO  RunTestCase:87 - INPUT data id Answer Value Red20---?><%$
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:45 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:45 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:46 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:46 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:46 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:46 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:46 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:46 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:46 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-09 23:08:46 INFO  RunTestCase:358 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:08:46 INFO  RunTestCase:360 - Fail
+2020-09-09 23:08:46 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:46 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký câu hỏi bảo mật gồm ký tự đặt biệt=================================
+2020-09-09 23:08:46 INFO  RunTestCase:405 - Start=========================Đăng kí không thành công | Đăng ký không chấp nhận chính sách và điều khoảng=================================
+2020-09-09 23:08:50 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:50 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:52 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:52 INFO  RunTestCase:87 - INPUT data id FullName Value FullName24
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:52 INFO  RunTestCase:87 - INPUT data id Email Value testVip24@gmail.com
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:52 INFO  RunTestCase:87 - INPUT data id UserName Value userName24
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:52 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-145
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:52 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-145
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:52 INFO  RunTestCase:128 - SELECT ID: What is your favorite colors?
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:52 INFO  RunTestCase:87 - INPUT data id Answer Value Red22
+2020-09-09 23:08:52 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:52 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:52 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:52 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:52 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:52 INFO  RunTestCase:231 - checkActualResult NOTEMPTY Please
+2020-09-09 23:08:52 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:52 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:52 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:53 INFO  RunTestCase:411 - End===========================Đăng kí không thành công | Đăng ký không chấp nhận chính sách và điều khoảng=================================
+2020-09-09 23:08:53 INFO  RunTestCase:405 - Start=========================Đăng kí thành công | Đữ liệu đầy đủ=================================
+2020-09-09 23:08:56 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-09 23:08:56 INFO  RunTestCase:75 - 1
+2020-09-09 23:08:57 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Register.aspx
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 2
+2020-09-09 23:08:57 INFO  RunTestCase:87 - INPUT data id FullName Value FullName25
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 3
+2020-09-09 23:08:57 INFO  RunTestCase:87 - INPUT data id Email Value testVip25@gmail.com
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 4
+2020-09-09 23:08:57 INFO  RunTestCase:87 - INPUT data id UserName Value userName25
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 5
+2020-09-09 23:08:57 INFO  RunTestCase:87 - INPUT data id Password Value 1testvip-146
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 6
+2020-09-09 23:08:57 INFO  RunTestCase:87 - INPUT data id ConfirmPassword Value 1testvip-146
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 7
+2020-09-09 23:08:57 INFO  RunTestCase:128 - SELECT ID: What is your father's nickname?
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 8
+2020-09-09 23:08:57 INFO  RunTestCase:87 - INPUT data id Answer Value Red23
+2020-09-09 23:08:57 INFO  RunTestCase:75 - 9
+2020-09-09 23:08:58 INFO  RunTestCase:115 - CLICK class register-check-box
+2020-09-09 23:08:58 INFO  RunTestCase:75 - 10
+2020-09-09 23:08:58 INFO  RunTestCase:111 - CLICK id StepNextButton
+2020-09-09 23:08:58 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-09 23:08:58 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-09 23:08:58 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-09 23:08:58 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Register.aspx?AspxAutoDetectCookieSupport=1
+2020-09-09 23:08:58 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-09 23:08:58 INFO  RunTestCase:168 - checkActualResult NOTEXIST FullName
+2020-09-09 23:08:58 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-09 23:08:58 INFO  RunTestCase:355 - Pass
+2020-09-09 23:08:58 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-09 23:08:59 INFO  RunTestCase:411 - End===========================Đăng kí thành công | Đữ liệu đầy đủ=================================
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:33 - ========== Start write Excel D:\kiemchungphanmem\code selenium\selenium\..\Testcase\testcase_create Account.xlsx==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công với tất cả trường đều rỗng có check Conditon==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công với tất cả trường đều rỗng có check Conditon==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công với tất cả trường đều rỗng có không check Conditon==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công với tất cả trường đều rỗng có không check Conditon==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với fullname có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Fail
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với fullname có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với fullname với hơn 255 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Fail
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với fullname với hơn 255 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với email rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với email rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với email có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với email có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với email có hơn 255 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với email có hơn 255 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với username rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với username rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với username có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Fail
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với username có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với username có hơn 255 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với username có hơn 255 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với mật khẩu rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với mật khẩu rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí thành công | Đăng ký với mật khẩu có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí thành công | Đăng ký với mật khẩu có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với mật khẩu nhỏ hơn 7 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với mật khẩu nhỏ hơn 7 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí thành công | Đăng ký với mật khẩu bao gồm chữ và số và ký tự đật biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí thành công | Đăng ký với mật khẩu bao gồm chữ và số và ký tự đật biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với mật khẩu không gồm ký tự đặt biệt và chữ số==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với mật khẩu không gồm ký tự đặt biệt và chữ số==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí thành công | Đăng ký với xác nhận mật khẩu có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí thành công | Đăng ký với xác nhận mật khẩu có ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu nhỏ hơn 7 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu nhỏ hơn 7 ký tự==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí thành công | Đăng ký với xác nhận mật khẩu bao gồm chữ và số và ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí thành công | Đăng ký với xác nhận mật khẩu bao gồm chữ và số và ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không gồm ký tự đặt biệt và chữ số==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không gồm ký tự đặt biệt và chữ số==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không giống mật khẩu==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký với xác nhận mật khẩu không giống mật khẩu==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký câu hỏi bảo mật rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký câu hỏi bảo mật rỗng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký câu hỏi bảo mật gồm ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - Not EXIST CLASS: text-danger
+
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Fail
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký câu hỏi bảo mật gồm ký tự đặt biệt==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí không thành công | Đăng ký không chấp nhận chính sách và điều khoảng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí không thành công | Đăng ký không chấp nhận chính sách và điều khoảng==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Đăng kí thành công | Đữ liệu đầy đủ==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Đăng kí thành công | Đữ liệu đầy đủ==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:119 - ========= End write excel==============
+2020-09-09 23:08:59 INFO  WriteTestCaseInToExcel:120 - ==================Test Done============
+2020-09-12 20:33:02 INFO  RunTestCase:387 - ==============Run main=========================
+2020-09-12 20:33:03 INFO  RunTestCase:399 - ======== Read TestCase ========= D:\kiemchungphanmem\code selenium\selenium\..\Testcase\testcase_login.xlsx
+2020-09-12 20:33:03 INFO  RunTestCase:402 - ======== Read Input TestCase ========= D:\kiemchungphanmem\code selenium\selenium\..\DataInput\input data testcase_login.xlsx
+2020-09-12 20:33:03 INFO  RunTestCase:405 - Start=========================Login thành công với user thường=================================
+2020-09-12 20:33:07 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:33:07 INFO  RunTestCase:75 - 1
+2020-09-12 20:33:30 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:33:30 INFO  RunTestCase:75 - 2
+2020-09-12 20:33:30 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:33:30 INFO  RunTestCase:75 - 3
+2020-09-12 20:33:30 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:33:30 INFO  RunTestCase:75 - 4
+2020-09-12 20:33:31 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:33:31 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:33:31 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:33:31 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:33:31 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:33:31 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:33:31 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:33:31 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:33:31 INFO  RunTestCase:355 - Pass
+2020-09-12 20:33:31 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:33:32 INFO  RunTestCase:411 - End===========================Login thành công với user thường=================================
+2020-09-12 20:33:32 INFO  RunTestCase:405 - Start=========================Login không  thành công với user không tồn tại=================================
+2020-09-12 20:33:35 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:33:35 INFO  RunTestCase:75 - 1
+2020-09-12 20:33:38 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:33:38 INFO  RunTestCase:75 - 2
+2020-09-12 20:33:38 INFO  RunTestCase:87 - INPUT data id UserName Value test11
+2020-09-12 20:33:38 INFO  RunTestCase:75 - 3
+2020-09-12 20:33:38 INFO  RunTestCase:87 - INPUT data id Password Value admin-1233
+2020-09-12 20:33:38 INFO  RunTestCase:75 - 4
+2020-09-12 20:33:38 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:33:38 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:33:38 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:33:38 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:33:38 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:33:38 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:33:38 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-12 20:33:39 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:33:39 INFO  RunTestCase:355 - Pass
+2020-09-12 20:33:39 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:33:39 INFO  RunTestCase:411 - End===========================Login không  thành công với user không tồn tại=================================
+2020-09-12 20:33:39 INFO  RunTestCase:405 - Start=========================Login không  thành công với password sai=================================
+2020-09-12 20:33:42 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:33:42 INFO  RunTestCase:75 - 1
+2020-09-12 20:33:45 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:33:45 INFO  RunTestCase:75 - 2
+2020-09-12 20:33:45 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:33:45 INFO  RunTestCase:75 - 3
+2020-09-12 20:33:45 INFO  RunTestCase:87 - INPUT data id Password Value admin-1233444
+2020-09-12 20:33:45 INFO  RunTestCase:75 - 4
+2020-09-12 20:33:45 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:33:45 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:33:45 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:33:45 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:33:45 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:33:45 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:33:45 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-12 20:33:45 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:33:45 INFO  RunTestCase:355 - Pass
+2020-09-12 20:33:45 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:33:47 INFO  RunTestCase:411 - End===========================Login không  thành công với password sai=================================
+2020-09-12 20:33:47 INFO  RunTestCase:405 - Start=========================Login không  thành công không nhập gì hết=================================
+2020-09-12 20:33:50 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:33:50 INFO  RunTestCase:75 - 1
+2020-09-12 20:33:58 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:33:58 INFO  RunTestCase:75 - 2
+2020-09-12 20:33:59 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:33:59 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:33:59 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:33:59 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:33:59 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:33:59 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:33:59 INFO  RunTestCase:298 - checkActualResult VISIBLE UserNameRequired
+2020-09-12 20:33:59 INFO  RunTestCase:148 - checkActualResult 3
+2020-09-12 20:33:59 INFO  RunTestCase:298 - checkActualResult VISIBLE PasswordRequired
+2020-09-12 20:33:59 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:33:59 INFO  RunTestCase:355 - Pass
+2020-09-12 20:33:59 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:34:01 INFO  RunTestCase:411 - End===========================Login không  thành công không nhập gì hết=================================
+2020-09-12 20:34:01 INFO  RunTestCase:405 - Start=========================Login không  thành công với chỉ nhập userName=================================
+2020-09-12 20:34:05 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:34:05 INFO  RunTestCase:75 - 1
+2020-09-12 20:34:12 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:34:12 INFO  RunTestCase:75 - 2
+2020-09-12 20:34:12 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:34:12 INFO  RunTestCase:75 - 3
+2020-09-12 20:34:12 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:34:12 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:34:12 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:34:12 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:34:12 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:34:12 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:34:12 INFO  RunTestCase:298 - checkActualResult VISIBLE PasswordRequired
+2020-09-12 20:34:12 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:34:12 INFO  RunTestCase:355 - Pass
+2020-09-12 20:34:12 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:34:13 INFO  RunTestCase:411 - End===========================Login không  thành công với chỉ nhập userName=================================
+2020-09-12 20:34:13 INFO  RunTestCase:405 - Start=========================Login không  thành công với chỉ nhập Password=================================
+2020-09-12 20:34:17 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:34:17 INFO  RunTestCase:75 - 1
+2020-09-12 20:34:35 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:34:35 INFO  RunTestCase:75 - 2
+2020-09-12 20:34:35 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:34:35 INFO  RunTestCase:75 - 3
+2020-09-12 20:34:35 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:34:35 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:34:35 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:34:35 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:34:35 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:34:35 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:34:35 INFO  RunTestCase:298 - checkActualResult VISIBLE UserNameRequired
+2020-09-12 20:34:35 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:34:35 INFO  RunTestCase:355 - Pass
+2020-09-12 20:34:35 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:34:38 INFO  RunTestCase:411 - End===========================Login không  thành công với chỉ nhập Password=================================
+2020-09-12 20:34:38 INFO  RunTestCase:405 - Start=========================Login  thành công với quyền admin=================================
+2020-09-12 20:34:42 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:34:42 INFO  RunTestCase:75 - 1
+2020-09-12 20:35:03 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:35:03 INFO  RunTestCase:75 - 2
+2020-09-12 20:35:03 INFO  RunTestCase:87 - INPUT data id UserName Value admin
+2020-09-12 20:35:03 INFO  RunTestCase:75 - 3
+2020-09-12 20:35:03 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:35:03 INFO  RunTestCase:75 - 4
+2020-09-12 20:35:05 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:35:05 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:35:05 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:35:05 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:35:05 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:35:05 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:35:05 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:35:05 INFO  RunTestCase:148 - checkActualResult 3
+2020-09-12 20:35:05 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_HyperLinkAdmin
+2020-09-12 20:35:05 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:35:05 INFO  RunTestCase:355 - Pass
+2020-09-12 20:35:05 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:35:06 INFO  RunTestCase:411 - End===========================Login  thành công với quyền admin=================================
+2020-09-12 20:35:06 INFO  RunTestCase:405 - Start=========================Login không  thành công với userName chỉ toàn là khoảng trắng=================================
+2020-09-12 20:35:09 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:35:09 INFO  RunTestCase:75 - 1
+2020-09-12 20:35:26 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:35:26 INFO  RunTestCase:75 - 2
+2020-09-12 20:35:26 INFO  RunTestCase:87 - INPUT data id UserName Value "          "
+2020-09-12 20:35:26 INFO  RunTestCase:75 - 3
+2020-09-12 20:35:26 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:35:26 INFO  RunTestCase:75 - 4
+2020-09-12 20:35:27 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:35:27 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:35:27 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:35:27 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:35:27 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:35:27 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:35:27 INFO  RunTestCase:355 - Pass
+2020-09-12 20:35:27 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:35:28 INFO  RunTestCase:411 - End===========================Login không  thành công với userName chỉ toàn là khoảng trắng=================================
+2020-09-12 20:35:28 INFO  RunTestCase:405 - Start=========================Login không  thành công với Password chỉ toàn là khoảng trắng=================================
+2020-09-12 20:35:31 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:35:31 INFO  RunTestCase:75 - 1
+2020-09-12 20:35:52 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:35:52 INFO  RunTestCase:75 - 2
+2020-09-12 20:35:52 INFO  RunTestCase:87 - INPUT data id UserName Value admin
+2020-09-12 20:35:52 INFO  RunTestCase:75 - 3
+2020-09-12 20:35:52 INFO  RunTestCase:87 - INPUT data id Password Value "          "
+2020-09-12 20:35:52 INFO  RunTestCase:75 - 4
+2020-09-12 20:36:04 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:36:04 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:36:04 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:36:04 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:36:04 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:36:04 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:36:04 INFO  RunTestCase:355 - Pass
+2020-09-12 20:36:04 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:36:05 INFO  RunTestCase:411 - End===========================Login không  thành công với Password chỉ toàn là khoảng trắng=================================
+2020-09-12 20:36:05 INFO  RunTestCase:405 - Start=========================Login thành công với user thường và check box nhớ đăng nhập=================================
+2020-09-12 20:36:08 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:36:08 INFO  RunTestCase:75 - 1
+2020-09-12 20:36:13 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:36:13 INFO  RunTestCase:75 - 2
+2020-09-12 20:36:13 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:36:13 INFO  RunTestCase:75 - 3
+2020-09-12 20:36:13 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:36:13 INFO  RunTestCase:75 - 4
+2020-09-12 20:36:13 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:36:13 INFO  RunTestCase:75 - 5
+2020-09-12 20:36:14 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:36:14 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:36:14 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:36:14 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:36:14 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:36:14 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:36:14 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:36:14 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:36:14 INFO  RunTestCase:355 - Pass
+2020-09-12 20:36:14 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:36:16 INFO  RunTestCase:411 - End===========================Login thành công với user thường và check box nhớ đăng nhập=================================
+2020-09-12 20:36:16 INFO  RunTestCase:405 - Start=========================Login thành công với user thường nhưng đã make Admin=================================
+2020-09-12 20:36:19 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:36:19 INFO  RunTestCase:75 - 1
+2020-09-12 20:36:27 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:36:27 INFO  RunTestCase:75 - 2
+2020-09-12 20:36:27 INFO  RunTestCase:87 - INPUT data id UserName Value test3
+2020-09-12 20:36:27 INFO  RunTestCase:75 - 3
+2020-09-12 20:36:28 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:36:28 INFO  RunTestCase:75 - 4
+2020-09-12 20:36:28 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:36:28 INFO  RunTestCase:75 - 5
+2020-09-12 20:36:29 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:36:29 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:36:29 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:36:29 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:36:29 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:36:29 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:36:29 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:36:29 INFO  RunTestCase:148 - checkActualResult 3
+2020-09-12 20:36:29 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_HyperLinkAdmin
+2020-09-12 20:36:29 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:36:29 INFO  RunTestCase:355 - Pass
+2020-09-12 20:36:29 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:36:29 INFO  RunTestCase:411 - End===========================Login thành công với user thường nhưng đã make Admin=================================
+2020-09-12 20:36:29 INFO  RunTestCase:405 - Start=========================Login  thành công với quyền admin nhập checkbox nhớ đăng nhập=================================
+2020-09-12 20:36:34 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:36:34 INFO  RunTestCase:75 - 1
+2020-09-12 20:36:35 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:36:35 INFO  RunTestCase:75 - 2
+2020-09-12 20:36:35 INFO  RunTestCase:87 - INPUT data id UserName Value admin
+2020-09-12 20:36:35 INFO  RunTestCase:75 - 3
+2020-09-12 20:36:35 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:36:35 INFO  RunTestCase:75 - 4
+2020-09-12 20:36:35 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:36:35 INFO  RunTestCase:75 - 5
+2020-09-12 20:36:36 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:36:36 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:36:36 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:36:36 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:36:36 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:36:36 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:36:36 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:36:36 INFO  RunTestCase:148 - checkActualResult 3
+2020-09-12 20:36:36 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_HyperLinkAdmin
+2020-09-12 20:36:36 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:36:36 INFO  RunTestCase:355 - Pass
+2020-09-12 20:36:36 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:36:37 INFO  RunTestCase:411 - End===========================Login  thành công với quyền admin nhập checkbox nhớ đăng nhập=================================
+2020-09-12 20:36:37 INFO  RunTestCase:405 - Start=========================Login thành công với user thường đã bị disable=================================
+2020-09-12 20:36:40 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:36:40 INFO  RunTestCase:75 - 1
+2020-09-12 20:36:43 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:36:43 INFO  RunTestCase:75 - 2
+2020-09-12 20:36:43 INFO  RunTestCase:87 - INPUT data id UserName Value testDisable
+2020-09-12 20:36:43 INFO  RunTestCase:75 - 3
+2020-09-12 20:36:43 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:36:43 INFO  RunTestCase:75 - 4
+2020-09-12 20:36:44 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:36:44 INFO  RunTestCase:75 - 5
+2020-09-12 20:36:44 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:36:44 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:36:44 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:36:44 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:36:44 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:36:44 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:36:44 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-12 20:36:44 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:36:44 INFO  RunTestCase:355 - Pass
+2020-09-12 20:36:44 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:36:44 INFO  RunTestCase:411 - End===========================Login thành công với user thường đã bị disable=================================
+2020-09-12 20:36:44 INFO  RunTestCase:405 - Start=========================Login không  thành công với user không tồn tại và check box nhớ đăng nhập=================================
+2020-09-12 20:36:48 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:36:48 INFO  RunTestCase:75 - 1
+2020-09-12 20:36:52 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:36:52 INFO  RunTestCase:75 - 2
+2020-09-12 20:36:52 INFO  RunTestCase:87 - INPUT data id UserName Value test11
+2020-09-12 20:36:52 INFO  RunTestCase:75 - 3
+2020-09-12 20:36:52 INFO  RunTestCase:87 - INPUT data id Password Value admin-1233
+2020-09-12 20:36:52 INFO  RunTestCase:75 - 4
+2020-09-12 20:36:52 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:36:52 INFO  RunTestCase:75 - 5
+2020-09-12 20:36:52 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:36:52 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:36:52 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:36:52 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:36:52 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:36:52 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:36:52 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-12 20:36:52 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:36:52 INFO  RunTestCase:355 - Pass
+2020-09-12 20:36:52 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:36:54 INFO  RunTestCase:411 - End===========================Login không  thành công với user không tồn tại và check box nhớ đăng nhập=================================
+2020-09-12 20:36:54 INFO  RunTestCase:405 - Start=========================Login không  thành công với user thường nhưng đã bị delete=================================
+2020-09-12 20:36:58 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:36:58 INFO  RunTestCase:75 - 1
+2020-09-12 20:37:13 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:37:13 INFO  RunTestCase:75 - 2
+2020-09-12 20:37:13 INFO  RunTestCase:87 - INPUT data id UserName Value testDelete
+2020-09-12 20:37:13 INFO  RunTestCase:75 - 3
+2020-09-12 20:37:14 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:37:14 INFO  RunTestCase:75 - 4
+2020-09-12 20:37:14 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:37:14 INFO  RunTestCase:75 - 5
+2020-09-12 20:37:15 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:37:15 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:37:15 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:37:15 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:37:15 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx?AspxAutoDetectCookieSupport=1
+2020-09-12 20:37:15 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:37:15 INFO  RunTestCase:231 - checkActualResult NOTEMPTY text-danger
+2020-09-12 20:37:15 INFO  RunTestCase:358 - VALUE OF URL NOT EQUAL: http://localhost/supermarketv3/default.aspx
+Not EXIST CLASS: text-danger
+
+2020-09-12 20:37:15 INFO  RunTestCase:360 - Fail
+2020-09-12 20:37:15 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:37:15 INFO  RunTestCase:411 - End===========================Login không  thành công với user thường nhưng đã bị delete=================================
+2020-09-12 20:37:15 INFO  RunTestCase:405 - Start=========================Login thành công với user thường đã bị disable nhưng được enable lại=================================
+2020-09-12 20:37:19 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:37:19 INFO  RunTestCase:75 - 1
+2020-09-12 20:37:20 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:37:20 INFO  RunTestCase:75 - 2
+2020-09-12 20:37:20 INFO  RunTestCase:87 - INPUT data id UserName Value testEnable
+2020-09-12 20:37:20 INFO  RunTestCase:75 - 3
+2020-09-12 20:37:20 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:37:20 INFO  RunTestCase:75 - 4
+2020-09-12 20:37:20 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:37:20 INFO  RunTestCase:75 - 5
+2020-09-12 20:37:22 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:37:22 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:37:22 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:37:22 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:37:22 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:37:22 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:37:22 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:37:22 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:37:22 INFO  RunTestCase:355 - Pass
+2020-09-12 20:37:22 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:37:23 INFO  RunTestCase:411 - End===========================Login thành công với user thường đã bị disable nhưng được enable lại=================================
+2020-09-12 20:37:23 INFO  RunTestCase:405 - Start=========================Login thành công với user thường và new 1 tab mới xem nó có đăng nhập không=================================
+2020-09-12 20:37:26 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:37:26 INFO  RunTestCase:75 - 1
+2020-09-12 20:37:27 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:37:27 INFO  RunTestCase:75 - 2
+2020-09-12 20:37:27 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:37:27 INFO  RunTestCase:75 - 3
+2020-09-12 20:37:27 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:37:27 INFO  RunTestCase:75 - 4
+2020-09-12 20:37:27 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:37:27 INFO  RunTestCase:75 - 5
+2020-09-12 20:37:28 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:37:28 INFO  RunTestCase:75 - 6
+2020-09-12 20:37:28 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:37:28 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:37:28 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:37:28 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:37:28 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:37:28 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:37:28 INFO  RunTestCase:355 - Pass
+2020-09-12 20:37:28 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:37:29 INFO  RunTestCase:411 - End===========================Login thành công với user thường và new 1 tab mới xem nó có đăng nhập không=================================
+2020-09-12 20:37:29 INFO  RunTestCase:405 - Start=========================Login thành công với user thường và refersh lại trang=================================
+2020-09-12 20:37:32 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:37:32 INFO  RunTestCase:75 - 1
+2020-09-12 20:37:33 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:37:33 INFO  RunTestCase:75 - 2
+2020-09-12 20:37:33 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:37:33 INFO  RunTestCase:75 - 3
+2020-09-12 20:37:33 INFO  RunTestCase:87 - INPUT data id Password Value admin-123
+2020-09-12 20:37:33 INFO  RunTestCase:75 - 4
+2020-09-12 20:37:33 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:37:33 INFO  RunTestCase:75 - 5
+2020-09-12 20:37:35 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:37:35 INFO  RunTestCase:75 - 6
+2020-09-12 20:37:36 INFO  RunTestCase:120 - REFRESH page http://localhost/supermarketv3/default.aspx
+2020-09-12 20:37:36 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:37:36 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:37:36 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:37:36 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:37:36 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:37:36 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:37:36 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:37:36 INFO  RunTestCase:355 - Pass
+2020-09-12 20:37:36 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:37:37 INFO  RunTestCase:411 - End===========================Login thành công với user thường và refersh lại trang=================================
+2020-09-12 20:37:37 INFO  RunTestCase:405 - Start=========================Login thành công với user thường đã đổi pass trước đó=================================
+2020-09-12 20:37:40 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:37:40 INFO  RunTestCase:75 - 1
+2020-09-12 20:37:55 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:37:55 INFO  RunTestCase:75 - 2
+2020-09-12 20:37:55 INFO  RunTestCase:87 - INPUT data id UserName Value testChangePass
+2020-09-12 20:37:55 INFO  RunTestCase:75 - 3
+2020-09-12 20:37:55 INFO  RunTestCase:87 - INPUT data id Password Value admin-12322
+2020-09-12 20:37:55 INFO  RunTestCase:75 - 4
+2020-09-12 20:37:55 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:37:55 INFO  RunTestCase:75 - 5
+2020-09-12 20:37:56 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:37:56 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:37:56 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:37:56 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:37:56 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/default.aspx
+2020-09-12 20:37:56 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:37:56 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_LoginName1
+2020-09-12 20:37:56 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:37:56 INFO  RunTestCase:355 - Pass
+2020-09-12 20:37:56 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:37:57 INFO  RunTestCase:411 - End===========================Login thành công với user thường đã đổi pass trước đó=================================
+2020-09-12 20:37:57 INFO  RunTestCase:405 - Start=========================Login thành công vs user thường checkbox remember xong log out và vào lai trang login=================================
+2020-09-12 20:38:00 INFO  RunTestCase:60 - Start Run Step TestCase
+2020-09-12 20:38:00 INFO  RunTestCase:75 - 1
+2020-09-12 20:38:09 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:38:09 INFO  RunTestCase:75 - 2
+2020-09-12 20:38:09 INFO  RunTestCase:87 - INPUT data id UserName Value test1
+2020-09-12 20:38:09 INFO  RunTestCase:75 - 3
+2020-09-12 20:38:09 INFO  RunTestCase:87 - INPUT data id Password Value  admin-123
+2020-09-12 20:38:09 INFO  RunTestCase:75 - 4
+2020-09-12 20:38:10 INFO  RunTestCase:100 - CHECKBOX  id RememberMe
+2020-09-12 20:38:10 INFO  RunTestCase:75 - 5
+2020-09-12 20:38:10 INFO  RunTestCase:111 - CLICK id LoginButton
+2020-09-12 20:38:10 INFO  RunTestCase:75 - 6
+2020-09-12 20:38:10 INFO  RunTestCase:111 - CLICK id dropdownMenu1
+2020-09-12 20:38:10 INFO  RunTestCase:75 - 7
+2020-09-12 20:38:10 INFO  RunTestCase:111 - CLICK id Header_LoginViewHeader_LoginStatus1
+2020-09-12 20:38:10 INFO  RunTestCase:75 - 8
+2020-09-12 20:38:11 INFO  RunTestCase:80 - OPENURL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:38:11 INFO  RunTestCase:62 - End Run Step TestCase
+2020-09-12 20:38:11 INFO  RunTestCase:64 - Start Run Check Result TestCase
+2020-09-12 20:38:11 INFO  RunTestCase:148 - checkActualResult 1
+2020-09-12 20:38:11 INFO  RunTestCase:188 - checkActualResult EQUAL http://localhost/supermarketv3/Login.aspx
+2020-09-12 20:38:11 INFO  RunTestCase:148 - checkActualResult 2
+2020-09-12 20:38:11 INFO  RunTestCase:188 - checkActualResult EQUAL Header_LoginViewHeader_HyperLink2
+2020-09-12 20:38:11 INFO  RunTestCase:353 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  RunTestCase:355 - Pass
+2020-09-12 20:38:11 INFO  RunTestCase:67 - End Run Check Result TestCase
+2020-09-12 20:38:11 INFO  RunTestCase:411 - End===========================Login thành công vs user thường checkbox remember xong log out và vào lai trang login=================================
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:33 - ========== Start write Excel D:\kiemchungphanmem\code selenium\selenium\..\Testcase\testcase_login.xlsx==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với user không tồn tại==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với user không tồn tại==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với password sai==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với password sai==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công không nhập gì hết==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công không nhập gì hết==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với chỉ nhập userName==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với chỉ nhập userName==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với chỉ nhập Password==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với chỉ nhập Password==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login  thành công với quyền admin==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login  thành công với quyền admin==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với userName chỉ toàn là khoảng trắng==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với userName chỉ toàn là khoảng trắng==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với Password chỉ toàn là khoảng trắng==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với Password chỉ toàn là khoảng trắng==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường và check box nhớ đăng nhập==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường và check box nhớ đăng nhập==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường nhưng đã make Admin==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường nhưng đã make Admin==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login  thành công với quyền admin nhập checkbox nhớ đăng nhập==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login  thành công với quyền admin nhập checkbox nhớ đăng nhập==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường đã bị disable==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường đã bị disable==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với user không tồn tại và check box nhớ đăng nhập==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với user không tồn tại và check box nhớ đăng nhập==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login không  thành công với user thường nhưng đã bị delete==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - VALUE OF URL NOT EQUAL: http://localhost/supermarketv3/default.aspx
+Not EXIST CLASS: text-danger
+
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Fail
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login không  thành công với user thường nhưng đã bị delete==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường đã bị disable nhưng được enable lại==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường đã bị disable nhưng được enable lại==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường và new 1 tab mới xem nó có đăng nhập không==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường và new 1 tab mới xem nó có đăng nhập không==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường và refersh lại trang==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường và refersh lại trang==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công với user thường đã đổi pass trước đó==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công với user thường đã đổi pass trước đó==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:56 - ========= Start write Excel TestCase Login thành công vs user thường checkbox remember xong log out và vào lai trang login==============
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:68 - same with ExpectedResult
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:81 - Pass
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:92 - Thinh
+2020-09-12 20:38:11 INFO  WriteTestCaseInToExcel:104 - ========= End write TestCase Login thành công vs user thường checkbox remember xong log out và vào lai trang login==============
+2020-09-12 20:38:12 INFO  WriteTestCaseInToExcel:119 - ========= End write excel==============
+2020-09-12 20:38:12 INFO  WriteTestCaseInToExcel:120 - ==================Test Done============

@@ -232,7 +232,7 @@ public class RunTestCase {
 					if (WebObjectEnum.ID.equals(action.getWebObject())) {
 						try {
 							WebElement element = driver.findElement(By.id(action.getNameOfwebObject()));
-							String textId = element.getText();
+							String textId = element.getText(); 
 							if (StringUtils.isEmpty(textId)) {
 								errorBuilder.append("VALUE OF ID EMPTY: ");
 								errorBuilder.append("\n");
