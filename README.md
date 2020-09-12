@@ -14,12 +14,11 @@ RunJar (thư mục chứa file jar để run trực tiếp)</li>
 cmd : java -jar seleniumWeb2.jar<br>
 <img src="./RunJar/start.png" alt="image info">
 <img src="./RunJar/end.png" alt="image info">
-<pre>
-  Video Demo:
-  <p>Test Create Accout User: https://youtu.be/PAS39Ga6MXI </p>
-  <p>Test Login User: https://youtu.be/EZoRWydz3R8 </p>
-</pre>
-
+<p> Video Demo:</p>
+<ol>
+<li class="has-line-data" data-line-start="14" data-line-end="15">Test Create Accout User: <a href="https://youtu.be/PAS39Ga6MXI">https://youtu.be/PAS39Ga6MXI</a></li>
+<li class="has-line-data" data-line-start="15" data-line-end="16">Test Login User: <a href="https://youtu.be/EZoRWydz3R8">https://youtu.be/EZoRWydz3R8</a></li>
+</ol>
   </li>
 </ol>
 <ul>
