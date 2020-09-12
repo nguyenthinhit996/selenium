@@ -11,7 +11,7 @@ ResultTest (thư mục chứa file resutl sau khi selenium đã run xong)<br>
 SourceCode (thu mục chứa source code)<br>
 Testcase (thư mục chứa file test case,thư mục đã chứa testCase )<br>
 RunJar (thư mục chứa file jar để run trực tiếp)</li>
-<li class="has-line-data" data-line-start="13" data-line-end="28">3 Run selenium<br>
+<li class="has-line-data" data-line-start="13" data-line-end="29">3 Run selenium<br>
 Đang ở vị trí thư mục RunJar<br>
 cmd : java -jar seleniumWeb2.jar<br>
 <img src="./RunJar/start.png" alt="image info"><br>
@@ -19,11 +19,14 @@ cmd : java -jar seleniumWeb2.jar<br>
 Video Demo:<br>
 Test Create Accout User: <a href="https://youtu.be/PAS39Ga6MXI">https://youtu.be/PAS39Ga6MXI</a><br>
 Test Login User: <a href="https://youtu.be/EZoRWydz3R8">https://youtu.be/EZoRWydz3R8</a><br>
+</ol>
+<br>
 chú ý:<br>
 Máy phải đã cài java, version 8 trở lên<br>
 Máy đã cài FireFox<br>
-Máy dã deploy server: localhost/supermarketv3/ Dự định tiếp theo sẽ ra version tiếp theo:<br>
+Máy dã deploy server: localhost/supermarketv3/<br>
+Dự định tiếp theo sẽ ra version tiếp theo:<br>
 chạy theo server tự chọn<br>
 chạy theo trình duyệt web tự chọn.</li>
-</ol>
-<p class="has-line-data" data-line-start="28" data-line-end="29">Cảm ơn. Chúc thành công.</p>
+
+<p class="has-line-data" data-line-start="29" data-line-end="30">Cảm ơn. Chúc thành công.</p>
